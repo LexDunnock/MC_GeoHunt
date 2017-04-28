@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#2392dc"
+    tools:context=".CharacterActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/faceImageView"
+            android:src="@drawable/face1" />
+
+        <ImageView
+            android:id="@+id/eyesImageView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eyes1"
+            android:layout_alignTop="@id/faceImageView"
+            android:layout_alignBottom="@id/faceImageView"
+            android:layout_alignLeft="@id/faceImageView"
+            android:layout_alignRight="@id/faceImageView" />
+
+        <ImageView
+            android:id="@+id/noseImageView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nose1"
+            android:layout_alignTop="@id/faceImageView"
+            android:layout_alignBottom="@id/faceImageView"
+            android:layout_alignLeft="@id/faceImageView"
+            android:layout_alignRight="@id/faceImageView" />
+
+        <ImageView
+            android:id="@+id/mouthImageView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mouth1"
+            android:layout_alignTop="@id/faceImageView"
+            android:layout_alignBottom="@id/faceImageView"
+            android:layout_alignLeft="@id/faceImageView"
+            android:layout_alignRight="@id/faceImageView" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView"
+        android:weightSum="1">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollView" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/face1_creatorButton"
+                    android:src="@drawable/face1_creator"
+                    android:background="@null" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/face2_creatorButton"
+                    android:src="@drawable/face2_creator"
+                    android:background="@null" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/face3_creatorButton"
+                    android:src="@drawable/face3_creator"
+                    android:background="@null" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollView2" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eyes1_creatorButton"
+                    android:src="@drawable/eyes1_creator"
+                    android:background="@null" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eyes2_creatorButton"
+                    android:src="@drawable/eyes2_creator"
+                    android:background="@null" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eyes3_creatorButton"
+                    android:src="@drawable/eyes3_creator"
+                    android:background="@null" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eyes4_creatorButton"
+                    android:src="@drawable/eyes4_creator"
+                    android:background="@null" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eyes5_creatorButton"
+                    android:src="@drawable/eyes5_creator"
+                    android:background="@null" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eyes6_creatorButton"
+                    android:src="@drawable/eyes6_creator"
+                    android:background="@null" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eyes7_creatorButton"
+                    android:src="@drawable/eyes7_creator"
+                    android:background="@null" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eyes8_creatorButton"
+                    android:src="@drawable/eyes8_creator"
+                    android:background="@null" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollView3" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nose1_creatorButton"
+                    android:src="@drawable/nose1_creator"
+                    android:background="@null" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nose2_creatorButton"
+                    android:src="@drawable/nose2_creator"
+                    android:background="@null" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nose3_creatorButton"
+                    android:src="@drawable/nose3_creator"
+                    android:background="@null" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nose4_creatorButton"
+                    android:src="@drawable/nose4_creator"
+                    android:background="@null" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollView4" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mouth1_creatorButton"
+                    android:src="@drawable/mouth1_creator"
+                    android:background="@null" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mouth2_creatorButton"
+                    android:src="@drawable/mouth2_creator"
+                    android:background="@null" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Geo Hunt</string>
+    <string name="action_addFriend">Freund hinzufügen</string>
+    <string name="action_synchronize">Synchronisieren</string>
+    <string name="action_menu">Menü</string>
+    <string name="map">Karte</string>
+    <string name="shop">Shop</string>
+    <string name="Ton">Ton</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_character">CharacterActivity</string>
+</resources>
