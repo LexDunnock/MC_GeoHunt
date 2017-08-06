@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+tools:context=".StartActivity"
+android:background="#2392dc"
+android:orientation="vertical">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp">
+
+
+        <ImageButton
+            android:id="@+id/CharacterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/face1"
+            android:background="@null" />
+
+        <ImageView
+            android:id="@+id/CharacterEyes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eyes1"
+            android:layout_alignTop="@id/CharacterButton"
+            android:layout_alignBottom="@id/CharacterButton"
+            android:layout_alignLeft="@id/CharacterButton"
+            android:layout_alignRight="@id/CharacterButton" />
+
+        <ImageView
+            android:id="@+id/CharacterNose"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nose1"
+            android:layout_alignTop="@id/CharacterButton"
+            android:layout_alignBottom="@id/CharacterButton"
+            android:layout_alignLeft="@id/CharacterButton"
+            android:layout_alignRight="@id/CharacterButton" />
+
+        <ImageView
+            android:id="@+id/CharacterMouth"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mouth2"
+            android:layout_alignTop="@id/CharacterButton"
+            android:layout_alignBottom="@id/CharacterButton"
+            android:layout_alignLeft="@id/CharacterButton"
+            android:layout_alignRight="@id/CharacterButton" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="258dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="16dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Eingeloggt als:"
+            android:id="@+id/loggedInAs"
+            android:textColor="@color/background_floating_material_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/CharacterName"
+            android:textColor="@color/background_floating_material_light" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/ScoreImageView"
+                android:src="@drawable/score_white" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/Score"
+                android:textColor="@android:color/background_light" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/map"
+            android:id="@+id/MapButton" />
+        <!--android:textColor="#ffffff"
+        android:backgroundTint="@color/colorPrimary"-->
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/shop"
+            android:id="@+id/ShopButton"/>
+        <!--android:textColor="#ffffff"
+        android:backgroundTint="@color/colorPrimary"-->
+        <!--
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/marker"
+            android:id="@+id/MarkerButton"
+            android:layout_gravity="center_horizontal" />-->
+
+    </LinearLayout>
+
+</LinearLayout>
+
+<ListView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/MarkerListView"
+    android:layout_gravity="top" />
+
+
+</LinearLayout>
+

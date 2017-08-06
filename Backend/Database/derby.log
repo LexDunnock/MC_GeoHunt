@@ -1,7 +1,7 @@
-Mon May 29 12:16:25 CEST 2017 : Apache Derby Network Server 10.11.1.2 - (1629631) wurde gestartet und ist bereit, Verbindungen auf Port 1527 zu akzeptieren.
+Sun Aug 06 16:43:08 CEST 2017 : Apache Derby Network Server 10.11.1.2 - (1629631) wurde gestartet und ist bereit, Verbindungen auf Port 1527 zu akzeptieren.
 ----------------------------------------------------------------
-Mon May 29 12:16:26 CEST 2017:
-Booten von Derby-Version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): Instanz a816c00e-015c-53b4-ef7b-ffff9c5d0bbc
+Sun Aug 06 16:43:20 CEST 2017:
+Booten von Derby-Version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): Instanz a816c00e-015d-b7ff-da84-ffff9c5d0bbc
 für Datenbankverzeichnis C:\Users\Alexander Perschke\Documents\MC_Repo\Backend\Database\GeoHuntDatabase mit Class Loader sun.misc.Launcher$AppClassLoader@6f94fa3e
 Geladen aus file:/C:/Program%20Files/Java/jdk1.8.0_111/db/lib/derby.jar
 java.vendor=Oracle Corporation
@@ -13,6 +13,4 @@ os.version=10.0
 derby.system.home=C:\Users\Alexander Perschke\Documents\MC_Repo\Backend\Database
 Datenbank-Class Loader wurde gestartet - derby.database.classpath=''
 ----------------------------------------------------------------
-Mon May 29 12:16:36 CEST 2017:
-Instanz a816c00e-015c-53b4-ef7b-ffff9c5d0bbc im Datenbankverzeichnis C:\Users\Alexander Perschke\Documents\MC_Repo\Backend\Database\GeoHuntDatabase mit Class Loader sun.misc.Launcher$AppClassLoader@6f94fa3e wird heruntergefahren
-Mon May 29 12:16:36 CEST 2017 Thread[DRDAConnThread_3,5,main] (DATABASE = GeoHuntDatabase), (DRDAID = {2}), Datenbank 'GeoHuntDatabase' wird heruntergefahren.
+Sun Aug 06 23:27:02 CEST 2017: Derby-Engine wird heruntergefahren
